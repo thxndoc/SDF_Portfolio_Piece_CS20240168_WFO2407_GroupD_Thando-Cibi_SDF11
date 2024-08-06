@@ -109,7 +109,7 @@
                     </button>
                 </div>
             </div>
-            <div class="items-center justify-end hidden col-span-1 md:flex"> 
+            <div class="items-center justify-end hidden col-span-1 md:flex rounded-3xl"> 
                 <img class="w-4/5" src="./assets/component-2/hero-image.png" alt="illustration of person working on desktop">
             </div>
         </section>
@@ -163,7 +163,7 @@
             </div>
         </section>
         <!-- COMPONENT 3: Features -->
-        <section class="border border-red-500 container mx-auto py-10 flex flex-col items-center justify-center" id="features">
+        <section class="container mx-auto py-10 flex flex-col items-center justify-center" id="features">
             <!-- Header -->
             <div class="border border-red-500 w-4/5 text-center mt-12">
                 <h1 class="mb-4 text-3xl lg:text-4xl font-extrabold text-[#1b255a]">Elevate Your Banking with Cache</h1>
@@ -219,7 +219,7 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 shadow-main hover:bg-[#10b982] transition duration-300">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-[#10b982] transition duration-300">
                     <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-pink-500">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                             <path d="M7.83331 4C7.83331 2.89 6.94331 2 5.83331 2C4.72331 2 3.83331 2.89 3.83331 4C3.83331 5.11 4.72331 6 5.83331 6C6.94331 6 7.83331 5.11 7.83331 4ZM11.0233 4.5C10.6133 4.5 10.2633 4.75 10.1033 5.13C9.66331 6.23 8.59331 7 7.33331 7H4.33331C3.50331 7 2.83331 7.67 2.83331 8.5V11H8.83331V8.74C10.2633 8.29 11.4133 7.21 11.9533 5.83C12.2133 5.19 11.7133 4.5 11.0233 4.5ZM19.8333 17C20.9433 17 21.8333 16.11 21.8333 15C21.8333 13.89 20.9433 13 19.8333 13C18.7233 13 17.8333 13.89 17.8333 15C17.8333 16.11 18.7233 17 19.8333 17ZM21.3333 18H18.3333C17.0733 18 16.0033 17.23 15.5633 16.13C15.4133 15.75 15.0533 15.5 14.6433 15.5C13.9533 15.5 13.4533 16.19 13.7033 16.83C14.2533 18.21 15.3933 19.29 16.8233 19.74V22H22.8233V19.5C22.8333 18.67 22.1633 18 21.3333 18ZM18.0833 11.09C18.0833 11.09 18.0833 11.08 18.0933 11.09C17.0333 11.36 16.1933 12.2 15.9233 13.26V13.25C15.8133 13.68 15.4133 14 14.9433 14C14.3933 14 13.9433 13.55 13.9433 13C13.9433 12.95 13.9633 12.86 13.9633 12.86C14.3933 11.01 15.8533 9.55 17.7133 9.13C17.7533 9.13 17.7933 9.12 17.8333 9.12C18.3833 9.12 18.8333 9.57 18.8333 10.12C18.8333 10.58 18.5133 10.98 18.0833 11.09ZM18.8333 6.06C18.8333 6.57 18.4633 6.98 17.9733 7.05C14.7833 7.44 12.2733 9.96 11.8833 13.15C11.8133 13.63 11.3933 14 10.8933 14C10.3433 14 9.89331 13.55 9.89331 13C9.89331 12.98 9.89331 12.96 9.89331 12.94C9.89331 12.93 9.89331 12.92 9.89331 12.91C10.3933 8.79 13.6833 5.53 17.8133 5.06H17.8233C18.3833 5.06 18.8333 5.51 18.8333 6.06Z" fill="white"/>
@@ -261,20 +261,95 @@
         <!-- COMPONENT 4: Stats & Getting Started-->
         <div class="w-full" id="pricing">
             <!-- Wide full-width container for additional content -->
-
+            <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+                <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8">
+                    <!-- Stats 1-->
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-5xl font-extrabold leading-tight text-center text-dark-grey-900"><span id="countto1" countto="250">250</span>+</h3>
+                        <p class="text-base font-medium leading-7 text-center text-dark-grey-600">Hours Saved Sitting in the Bank</p>
+                    </div>
+                    <!-- Stats 2-->
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-5xl font-extrabold leading-tight text-center text-dark-grey-900"><span id="countto2" countto="12">12</span>m</h3>
+                        <p class="text-base font-medium leading-7 text-center text-dark-grey-600">Cache saved</p>
+                    </div>
+                    <!-- Stats 3-->
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-5xl font-extrabold leading-tight text-center text-dark-grey-900"><span id="countto3" countto="2600" data-decimal="1">2.8</span>k+</h3>
+                        <p class="text-base font-medium leading-7 text-center text-dark-grey-600">Global Partners</p>
+                    </div>
+                    <!-- Stats 4-->
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-5xl font-extrabold leading-tight text-center text-dark-grey-900"><span id="countto4" countto="18000">18,000</span>+</h3>
+                        <p class="text-base font-medium leading-7 text-center text-dark-grey-600">Happy Developers</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!-- How Cache Works -->
+        <div class="w-full">
+            <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+                <div class="border border-red-500 w-full grid grid-cols-1 gap-24 lg:grid-cols-2">
+                    <div class="border border-purple-500 bg-cover bg-center hidden lg:block rounded-3xl">
+                        <img src="./assets/component-4/getting-started.png" alt="illustration of two people smiling, holding money">
+                    </div>
+
+                    <div class="border border-blue-500 flex flex-col gap-16">
+                        <div class="flex flex-col gap-2 text-center md:text-start">
+                            <h2 class="text-3xl font-extrabold text-dark-grey-900 md:text-4xl">How Cache Works?</h2>
+                            <p class="text-base font-medium leading-7 text-dark-grey-700">Cache Bank simplifies sign-up with a user-friendly website, streamlined account options, and an efficient verification process, making banking accessible and hassle-free for developers.</p>
+                        </div>
+
+                        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-10">
+                            <!-- Step 1 -->
+                            <div class="border border-red-500 flex flex-col items-start gap-1">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500">
+                                    <span class="text-base font-bold leading-7 text-white">1</span>
+                                </div>
+                                <h3 class="text-base font-bold leading-tight text-dark-grey-900">Visit Cache Bank Website</h3>
+                                <p class="text-sm font-medium leading-7 text-dark-grey-700">Go to Cache Bank, click "Sign Up", or "Open an Account"</p>
+                            </div>
+                            <!-- Step 2 -->
+                            <div class="border border-red-500 flex flex-col items-start gap-1">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500">
+                                    <span class="text-base font-bold leading-7 text-white">2</span>
+                                </div>
+                                <h3 class="text-base font-bold leading-tight text-dark-grey-900">Choose Account Type</h3>
+                                <p class="text-sm font-medium leading-6 text-dark-grey-700">	Select from checking, savings, or developer-specific accounts.</p>
+                            </div>
+                            <!-- Step 3 -->
+                            <div class="border border-red-500 flex flex-col items-start gap-1">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500">
+                                    <span class="text-base font-bold leading-7 text-white">3</span>
+                                </div>
+                                <h3 class="text-base font-bold leading-tight text-dark-grey-900">Provide Personal Information</h3>
+                                <p class="text-sm font-medium leading-6 text-dark-grey-700">Complete the form with your details and identification for security.</p>
+                            </div>
+                            <!-- Step 4 -->
+                            <div class="border border-red-500 flex flex-col items-start gap-1">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500">
+                                    <span class="text-base font-bold leading-6 text-white">4</span>
+                                </div>
+                                <h3 class="text-base font-bold leading-tight text-dark-grey-900">Verify and Submit</h3>
+                                <p class="text-sm font-medium leading-6 text-dark-grey-700">	Check your information, agree to terms, and submit for account approval</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- COMPONENT 5: Contact & Footer-->
         <div class="w-full" id="contact">
             <!-- Wide full-width container for additional content -->
-             <div class="container flex flex-col items-center gap-16 mx-auto">
-
-             </div>
         </div>    
     </div>
     <!-- FOOTER -->
     <div class="w-full bg-green-500">
         <!-- Full-width footer container with green background -->
     </div>
+
     <script> 
         document.getElementById("mobile-menu-toggle").addEventListener("click", function() {
             document.getElementById("mobile-menu").classList.toggle("hidden")
