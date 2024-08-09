@@ -1,6 +1,7 @@
 # SDF Presentation
-[Loom link:](https://www.loom.com/share/61ff4d8b2dd64f3ea2f4831fbc2ec9f2?sid=3a7889e8-2b11-4dd3-b0f1-237005f4bea4)
-[Presentation slides:](https://docs.google.com/presentation/d/1nRUQme_srpnoYcpxVpAjW-4W-xFd_XD_d7cSyFFn4S8/edit?usp=sharing)
+Loom video link: https://www.loom.com/share/61ff4d8b2dd64f3ea2f4831fbc2ec9f2?sid=3a7889e8-2b11-4dd3-b0f1-237005f4bea4 <>br
+
+Presentation slides: https://docs.google.com/presentation/d/1nRUQme_srpnoYcpxVpAjW-4W-xFd_XD_d7cSyFFn4S8/edit?usp=sharing
 
 # Installation
 
